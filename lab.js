@@ -55,14 +55,16 @@ let favoriteThings = {
   movie: `Shaun of the Dead`,
   holiday: `Fourth of July`
 }
-console.log(favoriteThings)
+// console.log(favoriteThings)
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car and then another key named 'show' with the value being your favorite show.
 */
 
 //Code here
-
+favoriteThings.car = `Flying Ford Anglia`
+favoriteThings.show = `It's Always Sunny in Philadelphia`
+// console.log(favoriteThings)
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
@@ -70,7 +72,9 @@ console.log(favoriteThings)
 */
 
 //Code here
-
+favoriteThings.food = `Chicken Nuggets`
+favoriteThings.book =  `Harry Potter`
+// console.log(favoriteThings)
 
 //////////////////////////// PROBLEM 6 ////////////////////////////
 
@@ -88,7 +92,12 @@ var carDetails = {
 */
 
 //Code Here
-
+const {color, make, model, year} = carDetails
+// const tint = carDetails.color
+// const brand = carDetails.make
+// const design = carDetails.model
+// const date = carDetails.year
+// console.log(color)
 
 
 //////////////////////////// PROBLEM 7 ////////////////////////////
@@ -101,11 +110,12 @@ var carDetails = {
 
 function greeting( obj ) {
   //Code Here
-  
+ const {title, firstName, lastName} = greeting
   // Do not edit the code below.
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
   // Do not edit the code above.
 }
+// console.log(greeting())
 
 
 
@@ -120,8 +130,16 @@ function greeting( obj ) {
 */
 
 //Code Here
+function totalPopulation(obj) {
+  const {utah, california, texas, arizona} = totalPopulation
+  return utah + california + texas + arizona
+}
 
-
+// utah = 3
+// california = 20
+// texas = 10
+// arizona = 3
+// console.log(totalPopulation())
 
 //////////////////////////// PROBLEM 9 ////////////////////////////
 
@@ -134,7 +152,11 @@ function greeting( obj ) {
 */
 
 //Code Here
-
+let ingredients = () => {
+  const {carb, fat, protein} = ingredients
+return [carb, fat, protein] 
+}
+// console.log(ingredients())
 
 
 //////////////////////////// PROBLEM 10 ////////////////////////////
@@ -156,7 +178,9 @@ var user = {
 */
 
 //Code Here
-
+user.name = 'Matthew'
+user.email =`atotallyrealemail@aol.com`
+// console.log(user.name, user.email)
 
 //////////////////////////// PROBLEM 11 ////////////////////////////
 /*
@@ -164,7 +188,8 @@ var user = {
 */
 
 //Code Here
-
+delete user.age
+console.log(user)
 
 //////////////////////////// PROBLEM 12 ////////////////////////////
 /*
