@@ -5,8 +5,11 @@
 */
 
 //Code here
-
-
+const me = {
+  name: 'Matthew',
+  age: 25
+}
+// console.log(me)
 
 //////////////////////////// PROBLEM 2 ////////////////////////////
 
@@ -16,21 +19,26 @@
 //and goodBoy/goodGirl (a boolean).
 
 //Code here
-
+const dog = {
+  name: `unknown`,
+  color: `not a real color`,
+  age: 1,
+  goodBoy: true
+}
 
 
 //////////////////////////// PROBLEM 3 ////////////////////////////
 /* Print out the name of the dog you created in problem 2 using dot-notation. */
 
 //Code here
-
+console.log(dog.name)
 
 
 //////////////////////////// PROBLEM 4 ////////////////////////////
 /* Print out the color of the dog you created in problem 2 using bracket-notation. */
 
 //Code here
-
+console.log(dog['color'])
 
 
 //////////////////////////// PROBLEM 5 ////////////////////////////
@@ -40,7 +48,14 @@
 */
 
 //Code here
-
+let favoriteThings = {
+  band: `glassjaw`,
+  food: `pizza`,
+  book: `N/A`,
+  movie: `Shaun of the Dead`,
+  holiday: `Fourth of July`
+}
+console.log(favoriteThings)
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car and then another key named 'show' with the value being your favorite show.
