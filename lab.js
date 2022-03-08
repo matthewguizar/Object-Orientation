@@ -189,7 +189,7 @@ user.email =`atotallyrealemail@aol.com`
 
 //Code Here
 delete user.age
-console.log(user)
+// console.log(user)
 
 //////////////////////////// PROBLEM 12 ////////////////////////////
 /*
@@ -199,9 +199,16 @@ console.log(user)
 */
 
 //Code here
+class Cat {
+  constructor(name, age, color){
+    this.name = name;
+    this.age = age;
+    this.color = color;
+  }
+} 
 
-
-
+const cat1 = new Cat(`Jamal`, 99, `white`);
+// console.log(cat1.name)
 //////////////////////////// PROBLEM 13 ////////////////////////////
 /*
   Create a class called 'Wizard'. Make sure to call your constructor, and require these 3 parameters: name, age, favoriteSpell.
@@ -211,7 +218,18 @@ console.log(user)
 */
 
 //Code here
-
+class Wizard {
+  constructor(name, age, favoriteSpell){
+  this.name = name
+  this.age = age
+  this.favoriteSpell = favoriteSpell
+  }
+  castSpell(){
+console.log (`${this.name} has cast ${this.favoriteSpell}`)
+  }
+}
+const jamalTheWiz = new Wizard('Jamal', 101, `Mage Armor`)
+jamalTheWiz.castSpell()
 //////////////////////////// PROBLEM 14 ////////////////////////////
 /*
     Write a class called Phone. We'll use it as if we were creating
