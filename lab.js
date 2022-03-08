@@ -31,14 +31,14 @@ const dog = {
 /* Print out the name of the dog you created in problem 2 using dot-notation. */
 
 //Code here
-console.log(dog.name)
+// console.log(dog.name)
 
 
 //////////////////////////// PROBLEM 4 ////////////////////////////
 /* Print out the color of the dog you created in problem 2 using bracket-notation. */
 
 //Code here
-console.log(dog['color'])
+// console.log(dog['color'])
 
 
 //////////////////////////// PROBLEM 5 ////////////////////////////
@@ -229,7 +229,7 @@ console.log (`${this.name} has cast ${this.favoriteSpell}`)
   }
 }
 const jamalTheWiz = new Wizard('Jamal', 101, `Mage Armor`)
-jamalTheWiz.castSpell()
+// jamalTheWiz.castSpell()
 //////////////////////////// PROBLEM 14 ////////////////////////////
 /*
     Write a class called Phone. We'll use it as if we were creating
@@ -305,8 +305,8 @@ iPhone.changePrice(1000)
 */
 
 //Code Here 
-blackBerry.sell()
-console.log(blackBerry.sold)
+// blackBerry.sell()
+// console.log(blackBerry.sold)
 //////////////////////////// PROBLEM 15 ////////////////////////////
 
 /*
@@ -324,7 +324,8 @@ const colors = {
 //do not edit this object
 
 //Code Here 
-
+const colorsCopy = {...colors}
+// console.log(colorsCopy)
 
 
 /*
@@ -352,7 +353,8 @@ const shippingInfo = {
 //do not edit the objects above
 
 //Code Here
-
+const helensInfo = {...contactInfo, ...shippingInfo}
+// console.log(helensInfo)
 
 //Print helensInfo to see what it looks like, there should be no repeating properties.
 
